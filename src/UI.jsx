@@ -1,8 +1,6 @@
 import React from 'react';
 import Dropdown from './Dropdown';
-import ProductFile from './ProductFile';
-
-
+import Helper from './Helper';
 
 const UI = () => {
 
@@ -17,10 +15,10 @@ const UI = () => {
                 </div>
                 <div >
                     <h1>Edvora</h1>
-                    <h5 style={{ color: 'grey', margin: '10px 0 ' }}>Products</h5>
-                    <ProductFile />
-                    <br />
-                    <ProductFile />
+                    <h5 style={{ color: 'grey', margin: '10px 0 ' }}>Products</h5>    
+                    <p>Product Name</p>
+                <hr style={{ background: 'white' }} />                
+                    <Helper />
                 </div>
             </div>
         </>
